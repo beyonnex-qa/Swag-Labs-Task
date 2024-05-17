@@ -7,7 +7,7 @@ export class CheckoutPage {
   readonly continueButton: Locator;
   readonly totalPriceLabel: Locator;
   readonly finishButton: Locator;
-  readonly orderConfirmationLabel: Locator;// Placeholder for verification
+  readonly orderConfirmationLabel: Locator; // Placeholder for verification
 
   constructor(page: Page) {
     this.page = page;
@@ -17,11 +17,13 @@ export class CheckoutPage {
     this.continueButton = page.locator("#continue");
     this.totalPriceLabel = page.locator(".summary_total_label");
     this.finishButton = page.locator("#finish");
-    this.orderConfirmationLabel = page.locator(".complete-header");// Let's keep this a surprise for now!  (We'll use this locator later)
-
+    this.orderConfirmationLabel = page.locator(".complete-header");
   }
-  
-  // **Hmm... Hardcoded firstname , lastname and postal code? Remember, data is king (and should be configurable!)**
+  /**
+   * Challenge 5
+   * Hmm... Hardcoded firstname , lastname and postal code?
+   * Remember, data is king (and should be configurable!)
+   */
   async fillCheckoutInformation() {
     await this.firstNameInput.fill("QA");
     await this.lastNameInput.fill("Task");
@@ -29,15 +31,21 @@ export class CheckoutPage {
     await this.continueButton.click();
   }
   async verifyTotalPrice() {
-    //Challenge 1 time! These 3 amazing products (you added them, right?) should add up to $103.65 with VAT.
-    //Can you implement the verify total price method then ? 
+    /**
+     * Challenge 6
+     * These 3 amazing products (you added them, right?) should add up to $103.65 with VAT.
+     * Can you implement the verify total price method then ?
+     */
   }
   async submitOrder() {
     await this.finishButton.click();
   }
 
-  // **Challenge 2 time! Can you write some detective code to verify the order confirmation message? 
-  //  (Think: assertions and waiting for elements)**
   async verifyOrderConfirmation() {
+    /**
+     * Challenge 7
+     * Can you write some code to verify the order confirmation message?
+     *  (Think: assertions and waiting for elements)
+     */
   }
 }

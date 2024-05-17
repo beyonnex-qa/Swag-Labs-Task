@@ -1,6 +1,6 @@
 import { defineConfig, devices } from "@playwright/test";
 
-/**Hidden Challenges*/
+
 export default defineConfig({
   testDir: "./tests",
   fullyParallel: true,
@@ -9,8 +9,10 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: "html",
   use: {
-    // **Challenge 1: Screenshots & Videos!**
-    // Can you enable screenshots and videos for failed tests or retries?
+    /**
+     * Challenge 9
+     * Can you enable screenshots and videos for failed tests or retries?
+     */
     trace: "on-first-retry",
   },
 
@@ -19,7 +21,10 @@ export default defineConfig({
       name: "chromium",
       use: { ...devices["Desktop Chrome"] },
     },
-    // **Challenge 2: Multi-Browser Testing!**
-    // Can you add configurations for other browsers like Firefox or WebKit?
+    /**
+     * Challenge 10
+     * Can you add configurations for other browsers like Firefox or WebKit?
+     */
+    
   ],
 });

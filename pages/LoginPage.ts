@@ -6,7 +6,6 @@ export class LoginPage {
   readonly passwordInput: Locator;
   readonly loginButton: Locator;
 
-
   constructor(page: Page) {
     this.page = page;
     this.emailInput = page.locator("#user-name");
@@ -19,13 +18,19 @@ export class LoginPage {
   }
 
   async login() {
-// **Warning!** Our QA Engineers would rather be trapped in a Matrix with endless loops than see hardcoded values. (Let's embrace best practices)
+    /**
+     * Challenge 1
+     * Our QA Engineers would rather be trapped in a Matrix with endless loops
+     * than see hardcoded values. (Let's embrace best practices)
+     */
+
     await this.emailInput.fill("standard_user");
     await this.passwordInput.fill("secret_sauce");
     await this.loginButton.click();
 
- // ** oh! Did we login successfully? Here's your chance to add confirmation!**
-
+    /**
+     * Challenge 2
+     * Did we login successfully? Here's your chance to add confirmation!
+     */
   }
 }
-

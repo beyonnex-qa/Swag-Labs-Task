@@ -6,13 +6,11 @@ export class InventoryPage {
   readonly shoppingCartButton: Locator;
   readonly addBackBackButton: Locator;
 
-
   constructor(page: Page) {
     this.page = page;
     this.pageTitle = page.locator(".title");
     this.shoppingCartButton = page.locator(".shopping_cart_link");
     this.addBackBackButton = page.locator("#add-to-cart-sauce-labs-backpack");
-
   }
 
   async gotoShoppingCart() {
@@ -22,9 +20,11 @@ export class InventoryPage {
     await this.addBackBackButton.click();
   }
 
-     // Seriously? Just one product? This is a demo site, let's live a little!
-    // **Challenge! add the first 3 products in the page to the cart but those 3 products should be the high-price prodcuts. 
-   // **Challenge accepted? then you will get bonus points for reusability!**
-
-
+  /**
+   * Challenge 3
+   * Seriously? adding just one product? This is a demo site, let's live a little!
+   * Add the first 3 products in the page to the cart but
+   * those 3 products should be the high-price prodcuts.
+   * Challenge accepted? then you will get bonus points for reusability ;)
+   */
 }

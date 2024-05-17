@@ -20,18 +20,20 @@ test.beforeEach(async ({ browser }) => {
 
 test.describe("Swag Labs Tests ", () => {
   test("End to End scenario", async ({}) => {
-    // **Challenge Time!**  This test is a marathon, not a sprint!
-    // Can you break it down into smaller, more focused tests?
-    // Think "separation of concerns" and keeping things nice and tidy and make any extra methods/verifications
-    //you think it will be helpfull
+    /**
+     * Challenge 8
+     * Can you break it down into smaller, more focused tests
+     * Think "separation of concerns" and keeping things nice and tidy and
+     * make any extra methods/verifications you think it will be helpfull
+     */
 
     await loginPage.navigateToWebsite();
     await loginPage.login();
 
     await inventoryPage.addBackPack();
     await inventoryPage.gotoShoppingCart();
-    
-    await cartPage.verifyItemInCart("Sauce Labs Backpack");// You got it right ? :)
+
+    await cartPage.verifyItemInCart("Sauce Labs Backpack"); //You got it right ? :)
 
     await cartPage.gotoCheckout();
     await checkoutPage.fillCheckoutInformation();
@@ -39,5 +41,13 @@ test.describe("Swag Labs Tests ", () => {
     await checkoutPage.verifyTotalPrice();
     await checkoutPage.submitOrder();
     await checkoutPage.verifyOrderConfirmation();
+
+    /**
+     * You Conquered the basics!  Explore further for bonus points:
+     *  - More test cases (users, scenarios)
+     *  - Framework improvements (refactoring, data-driven - reporting)
+     *  - CI/CD integration (GitHub Actions)
+     * Show us your test automation creativity!
+     */
   });
 });
