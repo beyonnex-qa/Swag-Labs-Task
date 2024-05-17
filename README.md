@@ -12,9 +12,9 @@ Refine the provided test suite (login, checkout) for Swag Labs (https://www.sauc
 
 Feeling overwhelmed? This checklist keeps track of your challenge progress.
 
-1. [ ] Solve challenge 1 & 2 in `LoginPage.ts` file
-2. [ ] Solve challenge 3 in `InventoryPage.ts` file
-3. [ ] Solve challenge 4 in `CartPage.ts` file
+1. [ ] Solve challenge 1 & 2 in `LoginPage.ts` 
+2. [ ] Solve challenge 3 in `InventoryPage.ts`
+3. [ ] Solve challenge 4 in `CartPage.ts` 
 4. [ ] Solve challenge 5,6 and 7 in `ChekoutPage.ts`
 5. [ ] Solve challenge 9 & 10 in `playwright.config.ts`
 6. [ ] Bonus Challenge : Test different user types, enhance framework, integrate CI/CD
