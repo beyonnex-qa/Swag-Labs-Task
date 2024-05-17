@@ -1,6 +1,6 @@
 **Welcome, Test Automation Adventurers!**
 
-Refine the provided test suite (login, checkout) for Swag Labs (https://www.saucedemo.com/v1/) and conquer 10 challenges to showcase your Playwright skills! 
+Refine the provided test suite (login, checkout) for Swag Labs (https://www.saucedemo.com) and conquer 10 challenges to showcase your Playwright skills! 
 
 
 **Project Structure:**
