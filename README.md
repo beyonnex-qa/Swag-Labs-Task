@@ -28,4 +28,4 @@ From 1 to 5 it's a mandatory challenges but if you want to show us more of your 
 
 **What We Need From You**
 
-When you're done,create a new private GitHub repo with your solution and grant access only to `beyonnex-qa`  account.
+When you're done,create a new private GitHub repo with your solution and grant access only to `beyonnex-qa` account and mention if you tackled the bonus challenge! 
