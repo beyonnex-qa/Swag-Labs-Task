@@ -17,7 +17,7 @@ Feeling overwhelmed? This checklist keeps track of your challenge progress.
 6. [ ] Bonus Challenge : Test different user types, enhance framework, integrate CI/CD
 
 
-From 1 to 5 it's a mandatory chalanges but if you want to show us more of your test automation skills feel free to solve challenge 6 which is an optional challange to showcase your creativity and your problem solving skills for building a highly scalable test automation framework.
+From 1 to 5 it's a mandatory challenges but if you want to show us more of your test automation skills feel free to solve challenge 6 which is an optional challenge to showcase your creativity and your problem solving skills for building a highly scalable test automation framework.
 
 
 **Project Structure:**
@@ -28,4 +28,4 @@ From 1 to 5 it's a mandatory chalanges but if you want to show us more of your t
 
 **What We Need From You**
 
-When you're done, create a new gitHub repo with your solution, highlight the completed challenges in the description (e.g., "Completed challenges 1, 3, and 5"), and send us the link!
+When you're done,create a new private GitHub repo with your solution and grant access only to `beyonnex-qa`  account.
