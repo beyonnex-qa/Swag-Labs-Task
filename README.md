@@ -1,12 +1,9 @@
 **Welcome, Test Automation Adventurers!**
 
-Refine the provided test suite (login, checkout) for Swag Labs (https://www.saucedemo.com) and conquer 10 challenges to showcase your Playwright skills! 
+Refine the provided test suite (login, checkout) for Swag Labs (https://www.saucedemo.com) and conquer 10 challenges to showcase your test automation skills! 
 
+This framework is built using playwright but if you feel playwrght is not your favorite framework , feel free to build it your own way and do the challenges . 
 
-**Project Structure:**
-
-* `pages folder`: This folder contains the 4 screens you would deal with them to solve the challenges , each file in that folder contain the locator and the method that will help you during the challenge
-* `tests/EndToEnd.spec.ts`: This file contains the initial test script for the Swag Labs website.  It includes an end-to-end scenario covering login, adding items to the cart, checkout, and order confirmation.
 
 **Challenges Checklist**
 
@@ -20,8 +17,15 @@ Feeling overwhelmed? This checklist keeps track of your challenge progress.
 6. [ ] Bonus Challenge : Test different user types, enhance framework, integrate CI/CD
 
 
-**The Rewards:**
+From 1 to 5 it's a mandatory chalanges but if you want to show us more of your test automation skills feel free to solve challenge 6 which is an optional challange to showcase your creativity and your problem solving skills for building a highly scalable test automation framework.
 
-Beyond the satisfaction of conquering these challenges, you'll have the opportunity to showcase your skills and potentially join our talented team.  We value creativity, problem-solving skills, and a passion for building high-quality test automation solutions.
 
-**P.S.** Don't forget to have fun along the way! We appreciate your creativity and problem-solving approaches.
+**Project Structure:**
+
+* `pages folder`: This folder contains the 4 screens you would deal with them to solve the challenges , each file in that folder contain the locator and the method that will help you during the challenge
+* `tests/EndToEnd.spec.ts`: This file contains the initial test script for the Swag Labs website.  It includes an end-to-end scenario covering login, adding items to the cart, checkout, and order confirmation.
+
+
+**What We Need From You**
+
+When you're done, create a new gitHub repo with your solution, highlight the completed challenges in the description (e.g., "Completed challenges 1, 3, and 5"), and send us the link!
